@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;;
+}
+.nav-one{
+    display: flex;
+    padding: 5px 45px;
+    white-space: nowrap;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+    margin: 0 60px;
+}
+.list li{
+    margin: 0 10px;
+    padding-top: 60px;
+}
+.search li img{
+    width: 100px;
+}
+.nav{
+    display: flex;
+    padding: 5px 45px;
+    white-space: nowrap;
+}
+.logo{
+    margin: 0 20px;
+}
+.list-items ul{
+    display: flex;
+    list-style: none;
+}
+.list-items li{
+    margin: 0 10px;
+    padding-top: 60px;
+}
+.list-items li a{
+    text-decoration: none;
+    color: black;
+}
+.list-items li a:hover{
+    text-decoration: underline;
+}
+.btn-nav{
+    padding-top: 20px;
+    margin: 0 20px;
+}
+.btn-nav button{
+    display: inline-block;
+    padding: 10px 28px;
+    background:  #ffbc0d;
+    border: 2px solid #ffbc0d;
+    border-radius: 6px;
+    font-size: 15px;
+    color: black;
+    letter-spacing: 0;
+    font-weight: 0;
+    transition: .5s;
+}
+.btn-nav button:hover{
+    background: transparent;
+    color: #ffbc0d;
+}
+.section-one{
+    display: flex;
+    padding: 80px 20px 0px 65px;
+}
+.section-one img{
+    width: 600px;
+    height: 300px;
+    padding-top: 50px;
+}
+.section-text{
+    padding: 0px 0px 0px 20px;
+}
+.section-text button{
+    display: inline-block;
+    padding: 10px 28px;
+    background:  #ffbc0d;
+    border: 2px solid #ffbc0d;
+    border-radius: 6px;
+    font-size: 15px;
+    color: black;
+    letter-spacing: 0;
+    font-weight: 0;
+    transition: .5s;
+    margin-top: 30px;
+}
+.section-text button:hover{
+    background: transparent;
+    color: #ffbc0d;
+}
+.section-text-p1{
+    padding-top: 20px;
+}
+.section-text-p1 span a{
+    color: #006bae;
+}
+.section-text-p2{
+    padding-top: 20px;
+}
+.section-text h6{
+    font-weight: lighter;
+}
+.section-text-h6{
+    padding-top: 20px;
+}
+.section-two{
+    display: flex;
+    padding: 80px 20px 0px 65px;
+}
+.Header{
+    text-align: center;
+    padding-top: 30px;
+}
+.Header h1{
+    font-size: 50px;
+}
+.section-two img{
+    width: 600px;
+    height: 300px;
+    padding-top: 20px;
+}
+.section-three{
+    display: flex;
+    padding: 80px 20px 0px 65px;
+}
+.section-three img{
+    width: 600px;
+    height: 300px;
+    padding-top: 20px;
+}
+.section-four{
+    display: flex;
+    padding: 80px 20px 0px 65px;
+}
+.section-four img{
+    width: 600px;
+    height: 300px;
+    padding-top: 20px;
+}
+.section-five{
+    display: flex;
+    padding: 80px 20px 0px 65px;
+}
+.section-five img{
+    width: 600px;
+    height: 300px;
+    padding-top: 20px;
+}
+.list-items-header{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 100px 0 0 0;
+}
+.list-items-header li{
+    list-style: none;
+    margin: 5px 0 0 0;
+}
+.About{
+    font-weight: bold;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+}
+.socials img{
+    object-fit: contain;
+}
+.socials ul{
+    display: flex;
+    list-style: none;
+}
+.socials li{
+    margin: 0 8px;
+    padding-top: 50px;
+}
+.download{
+    padding-top: 50px;
+}
+.download-section-one{
+    display: flex;
+    padding: 80px 20px 0px 65px;
+}
+.download-section-one img{
+    width: 600px;
+    height: 300px;
+    padding-top: 20px;
+}
+.download-section-two{
+    display: flex;
+    padding: 80px 20px 0px 65px;
+}
+.download-section-two img{
+    width: 600px;
+    height: 300px;
+    padding-top: 20px;
+}
+.downloads{
+    display: flex;
+    padding-top: 0px;
+}
+.downloads img{
+    object-fit: contain;
+    width: 200px;
+}
+.download-section-three{
+    padding-top: 30px;
+}
+.header{
+    margin: 0 50px;
+}
+.header h1{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.header p{
+    padding: 20px 0 0 0;
+}
+.header h6 span a{
+    color: #006bae;
+}
+.header h6{
+    font-weight: lighter;
+    padding-top: 25px;
+}
+.reward-section-one{
+    padding-top: 60px;
+}
+.reward-section-one h1{
+    margin: 0 40px;
+    font-size: 35px;
+    padding-top: 35px;
+}
+.reward-section-one p{
+    padding-top: 10px;
+    font-weight: 400;
+    margin: 0 40px;
+}
+.reward-nav{
+    display: flex;
+    justify-content: center;
+}
+.reward-nav img{
+    margin: 0 10px;
+}
+.reward-nav-header{
+    display: flex;
+    justify-content: center;
+}
+.reward-nav-header p{
+    margin: 0 80px;
+    font-size: 34px;
+    white-space: nowrap;
+}
+.reward-nav-text{
+    display: flex;
+    justify-content: center;
+}
+.reward-nav-text p{
+    margin: 0 20px;
+    white-space: nowrap;
+}
+.reward-nav-text p span a{
+    color: #006bae;
+}
+.section-four p span a{
+    color: #006bae;
+}
+.Section-six p span a{
+    color: #006bae;
+}
+.section-three p span a{
+    color: #006bae;
+}
+.download-section-three p span a{
+    color: #006bae;
+}
+.Section-four p span a{
+    color: #006bae;
+}
+.mini-text{
+    justify-content: center;
+}
+.mini-text h6{
+    font-weight: lighter;
+    padding-top: 40px;
+    margin: 0 420px;
+    white-space: nowrap;
+}
+.Section-one{
+    margin: 0 30px;
+    padding-top: 80px;
+}
+.Section-one p{
+    padding-top: 10px;
+}
+.Section-two{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.Section-two img{
+    width: 600px;
+    margin: 0 15px;
+}
+.Section-three{
+    display: flex;
+    margin: 0 20px;
+    padding-top: 20px;
+}
+.Section-three p{
+    font-size: 30px;
+    white-space: nowrap;
+}
+.Section-three-p1{
+    margin: 0 450px;
+    white-space: nowrap;
+}
+.Section-four{
+    display: flex;
+    margin: 0 20px;
+    padding-top: 30px;
+}
+.Section-four-p1{
+    margin: 0 20px;
+    white-space: nowrap;
+}
+.Section-four-p2{
+    margin: 0 100px;
+}
+.Section-five h1{
+    margin: 0 20px;
+    padding-top: 40px;
+}
+.Section-six{
+    margin: 0 20px;
+    padding-top: 10px;
+}
+.Section-six-p1{
+    font-size: 40px;
+}
+.Section-six-p2{
+    padding-top: 10px;
+}
+.Section-six ol{
+    padding-top: 10px;
+    margin: 0 50px;
+}
+.header-one{
+    text-align: center;
+    padding-top: 70px;
+}
+.header-one h1{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.about-section-one{
+    text-align: center;
+    padding-top: 20px;
+}
+.about-section-one img{
+     width: 1100px;
+}
+.about-section-two{
+    margin: 0 60px;
+    padding-top: 100px;
+}
+.about-section-two p{
+    padding-top: 15px;
+}
+.about-section-three{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.about-section-three img{
+    width: 500px;
+    margin: 0 10px;
+}
+.about-section-four{
+    display: flex;
+}
+.about-section-four-commitment{
+    margin: 0 90px;
+    padding: 20px 0 0 0;
+}
+.about-section-four-commitment p{
+    font-size: 30px;
+}
+.about-section-four-commitment h5{
+    font-weight: lighter;
+    padding-top: 15px;
+}
+.about-section-four-commitment button{
+    display: inline-block;
+    padding: 10px 28px;
+    background:  #ffbc0d;
+    border: 2px solid #ffbc0d;
+    border-radius: 6px;
+    font-size: 15px;
+    color: black;
+    letter-spacing: 0;
+    font-weight: 0;
+    transition: .5s;
+    margin-top: 35px;
+}
+.about-section-four-commitment button:hover{
+    background: transparent;
+    color: #ffbc0d;
+}
+.about-section-four-food{
+    padding-top: 20px;
+    margin: 0 20px;
+}
+.about-section-four-food p{
+    font-size: 30px;
+}
+.about-section-four-food h5{
+    font-weight: lighter;
+    padding-top: 15px;
+}
+.about-section-four-food h6{
+    font-weight: lighter;
+    padding-top: 15px;
+}
+.about-section-four-food button{
+    display: inline-block;
+    padding: 10px 28px;
+    background:  #ffbc0d;
+    border: 2px solid #ffbc0d;
+    border-radius: 6px;
+    font-size: 15px;
+    color: black;
+    letter-spacing: 0;
+    font-weight: 0;
+    transition: .5s;
+    margin-top: 35px;
+}
+.about-section-four-food button:hover{
+    background: transparent;
+    color: #ffbc0d;
+}
+/* exclusive */
+.exclusive-header h1{
+     padding-top: 80px;
+     text-align: center;
+     font-size: 60px;
+}
+.Download{
+    display: flex;
+}
+.Download img{
+     width: 30px;
+     padding-top: 50px;
+}
+.Download p{
+    padding-top: 50px;
+}
+.Download img p{
+    margin: 0 10px;
+}
+.information{
+    padding-top: 35px;
+    margin: 0 5px;
+}
+.information p{
+    margin: 0 5px;
+}
